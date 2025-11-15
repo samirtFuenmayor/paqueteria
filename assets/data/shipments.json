@@ -1,0 +1,49 @@
+[
+  {
+    "id": "SHP-1001",
+    "senderName": "Empresa A",
+    "receiverName": "Carlos Perez",
+    "origin": "Quito",
+    "destination": "Guayaquil",
+    "weightKg": 3.2,
+    "price": 9.5,
+    "status": "PENDIENTE",
+    "createdAt": "2025-11-01T09:30:00Z",
+    "history": [
+      {"time":"2025-11-01T09:30:00Z","status":"CREADO","location":"Quito"}
+    ],
+    "assignedCourierId": null
+  },
+  {
+    "id": "SHP-1002",
+    "senderName": "Juan Perez",
+    "receiverName": "Maria Lopez",
+    "origin": "Cuenca",
+    "destination": "Quito",
+    "weightKg": 1.0,
+    "price": 6.0,
+    "status": "EN_TRANSITO",
+    "createdAt": "2025-10-30T11:00:00Z",
+    "history": [
+      {"time":"2025-10-30T11:00:00Z","status":"CREADO","location":"Cuenca"},
+      {"time":"2025-11-01T14:00:00Z","status":"EN_TRANSITO","location":"Paso por Loja"}
+    ],
+    "assignedCourierId": "u_courier_1"
+  },
+  {
+    "id":"SHP-1003",
+    "senderName":"Cliente X",
+    "receiverName":"Luis Gomez",
+    "origin":"Guayaquil",
+    "destination":"Quito",
+    "weightKg":2.0,
+    "price":7.5,
+    "status":"ENTREGADO",
+    "createdAt":"2025-10-25T10:00:00Z",
+    "history":[
+      {"time":"2025-10-25T10:00:00Z","status":"CREADO","location":"Guayaquil"},
+      {"time":"2025-10-27T16:00:00Z","status":"ENTREGADO","location":"Quito"}
+    ],
+    "assignedCourierId":"u_courier_1"
+  }
+]

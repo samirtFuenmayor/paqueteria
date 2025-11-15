@@ -1,0 +1,37 @@
+[
+  {
+    "id": "u_admin",
+    "name": "Admin Paqueteria",
+    "email": "admin@paqueteria.com",
+    "password": "admin123",
+    "role": "SuperAdmin"
+  },
+  {
+    "id": "u_ops",
+    "name": "Operaciones",
+    "email": "ops@paqueteria.com",
+    "password": "ops123",
+    "role": "Admin"
+  },
+  {
+    "id": "u_sup",
+    "name": "Supervisor Zona Norte",
+    "email": "supervisor@paqueteria.com",
+    "password": "sup123",
+    "role": "Supervisor"
+  },
+  {
+    "id": "u_courier_1",
+    "name": "Repartidor 1",
+    "email": "courier1@paqueteria.com",
+    "password": "courier123",
+    "role": "Courier"
+  },
+  {
+    "id": "u_client_1",
+    "name": "Juan Cliente",
+    "email": "juan@cliente.com",
+    "password": "cliente123",
+    "role": "Cliente"
+  }
+]
